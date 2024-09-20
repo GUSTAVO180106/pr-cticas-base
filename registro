@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <div class="container justify-content-center">
+        <div class="col-sm-10 col-md-10 col-lg-10">
+            <div class="card shadow mt-5">
+                <h2 class="display-6 text-center mt-2">Registro de Usuario</h2>
+                <form action="<?php echo $_SERVER ?>" method="POST">
+                <div class="row mt-2 justify-content-center">
+                    <div class="col-sm-10 col-md-10 col-lg-10">
+                        <imput type="text" name="Nombre" id="nombre" class="form-control" placeholder="nombre">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
